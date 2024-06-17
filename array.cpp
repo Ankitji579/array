@@ -115,28 +115,28 @@ auto start = chrono::steady_clock::now();
 	// 	}
 	// }
 	
-	void SreverseArray(int arr[], int size){
+	// void SreverseArray(int arr[], int size){
 		
-		int end = size-1;
+	// 	int end = size-1;
 		
 		
-		for(int start=0;start<size;start++){
+	// 	for(int start=0;start<size;start++){
 			
-		if(start <=end){	
-			swap(arr[start],arr[end]);
-			// start++;
-			end--;
+	// 	if(start <=end){	
+	// 		swap(arr[start],arr[end]);
+	// 		// start++;
+	// 		end--;
 			
-		}
+	// 	}
 		
 		
-		}
+	// 	}
 		
-		for(int i=0;i<size;i++){
-			cout<<arr[i]<<" ";
-		}
+	// 	for(int i=0;i<size;i++){
+	// 		cout<<arr[i]<<" ";
+	// 	}
 		
-	}
+	// }
 
 int main(){ 
 	
@@ -248,13 +248,44 @@ int main(){
 	// extremePoints(arr,size); 
 
 
-	int arr[7]={1,2,3,4,5,6,7};
-	int size = 7;
+	// int arr[7]={1,2,3,4,5,6,7};
+	// int size = 7;
 	
-	// reverseArray(arr,size);
-	// cout<<endl;
+	// // reverseArray(arr,size);
+	// // cout<<endl;
 	
-	SreverseArray(arr,size);
+	// SreverseArray(arr,size);
+	
+	
+	// vector<int>arr(10,20,30);
+	// vector<int>brr(10,-1);
+	
+	// int n;
+	// cin>>n;
+	// int n;
+	// cin>>n;
+	// vector<int> arr(n);
+	
+	
+	// // cout<<(sizeof(arr)/sizeof(bool))<<endl;
+	// // cout<<arr.size()<<endl;
+	// // cout<<arr.empty()<<endl;
+	
+	// arr.push_back(1);
+	// arr.push_back(2);
+	// arr.push_back(3);
+	// arr.push_back(4);
+	// // arr.push_back(5);
+	// arr.pop_back();
+	
+	
+		
+	// 	cout<<arr(n);
+	
+	
+
+	
+	
 	
 	
 	
